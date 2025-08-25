@@ -1,0 +1,29 @@
+/* p {
+  text-shadow: 1px 1px white;
+  text-shadow: -1px 0px white;
+} */
+
+/* 후에 적용된 shadow값이 적용되는 것을 확인  할 수 있음. 그림자 속성은 중첩적으로 넣은것이 불가능 하진 않고 이때 속성값이 ','가 들어감 */
+
+p {
+  text-shadow: 
+  1xp, 0 white, 
+  -1px 0 white, 
+  0 1px white, 
+  0 -1px white,
+
+  1px 1px white,
+  1px -1px white
+  -1px 1px white,
+  -1px -1px white,
+
+  2px 0 plum,
+  -2px 0 plum,
+  0 2px plum,
+  0 -2px plum,
+
+  2px 1px plum,
+  -2px 1px plum,
+  1px 2px plum,
+  1px -2px 10px red;
+}
